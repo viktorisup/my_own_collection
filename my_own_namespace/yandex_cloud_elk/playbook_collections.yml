@@ -1,0 +1,4 @@
+- name: play collection
+  hosts: localhost
+  roles:
+    - my_own_module
