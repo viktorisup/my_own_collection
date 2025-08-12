@@ -1,0 +1,7 @@
+- name: test_my_own_module
+  hosts: localhost
+  tasks:
+  - name: my_own_module
+    my_own_module:
+      path: '/tmp/file2'
+      content: 'Hello World v2'
